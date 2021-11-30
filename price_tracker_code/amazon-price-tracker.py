@@ -8,6 +8,7 @@ from bs4 import BeautifulSoup
 from datetime import date
 import smtplib
 
+print('Hi')
 # URLs we want to track go in this list:
 urls = ["https://www.amazon.co.uk/Adidas-Gymnastics-Black-Footwear-White/dp/B079L56FNM/ref=sxin_18_ac_d_rm?ac_md=3-3-YWRpZGFzIHNob2Vz-ac_d_rm_rm_rm&cv_ct_cx=shoes&dchild=1&keywords=shoes&pd_rd_i=B079L56FNM&pd_rd_r=d014aeac-758e-4b5a-a184-609e5d291bd8&pd_rd_w=Lb5KS&pd_rd_wg=df4N1&pf_rd_p=73573abc-9548-43f0-87cb-a185286cee4c&pf_rd_r=AVF547YARHQKJ743J16A&psc=1&qid=1632321242&sr=1-4-fe323411-17bb-433b-b2f8-c44f2e1370d4",
        "https://www.amazon.co.uk/Anker-Ultra-Compact-High-Speed-VoltageBoost-Technology/dp/B07QXV6N1B?ref=deals_deals_deals-grid_dcell_img_28_476c969c_dt_slot-15_582b"]
