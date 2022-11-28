@@ -27,7 +27,7 @@ def email_notif(title, current_price, rrp, url):
     smtp_object = smtplib.SMTP('smtp.gmail.com', 587) # Simple Mail Transfer Protocol
     smtp_object.ehlo() # Client identifies itself to SMTP server
     smtp_object.starttls()
-    smtp_object.login(from_address, "dgbyqcrxnydadadx") #App password used for security
+    smtp_object.login(from_address, "[FILL PASSWORD]") #App password used for security
 
     #Sending an email
 
